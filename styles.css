@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #282A35;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+}
+
+header {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 0 0.8rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.header-right button {
+    display: none;
+}
+
+.header-right button:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.website-button {
+    background-color: #FFC0C7;
+    color: black;
+}
+
+.paid-courses-button {
+    background-color: white;
+    color: black;
+}
+
+.paid-courses-button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.log-in-button {
+    background-color: #04AA6D;
+}
+
+.navigation {
+    align-items: center;
+    display: none;
+    height: 100%;
+}
+
+.navigation .tab {
+    align-items: center;
+    color: black;
+    display: inline-flex;
+    font-size: 1.1rem;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.navigation .tab:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.hamburger-icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.programming-languages-section {
+    background-color: #282A35;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
+.programming-languages-section button {
+    border-radius: 0.33rem;
+    color: black;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.programming-languages-section button:nth-child(1),
+.programming-languages-section button:nth-child(6) {
+    background-color: #FFC0C7;
+}
+
+.programming-languages-section button:nth-child(2),
+.programming-languages-section button:nth-child(7) {
+    background-color: #FFF4A3;
+}
+
+.programming-languages-section button:nth-child(3),
+.programming-languages-section button:nth-child(8) {
+    background-color: #F3ECEA;
+}
+
+.programming-languages-section button:nth-child(4),
+.programming-languages-section button:nth-child(9) {
+    background-color: #D9EEE1;
+}
+ 
+.programming-languages-section button:nth-child(5) {
+    background-color: #96D4D4;
+}
