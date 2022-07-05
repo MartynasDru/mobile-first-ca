@@ -41,6 +41,12 @@ header {
     display: none;
 }
 
+@media only screen and (min-width: 768px) {
+    .header-right .log-in-button {
+        display: inline-block;
+    }
+}
+
 .header-right button:not(:last-child) {
     margin-right: 0.5rem;
 }
@@ -53,6 +59,13 @@ header {
 .paid-courses-button {
     background-color: white;
     color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-right .website-button,
+    .header-right .paid-courses-button {
+        display: inline-block;
+    }
 }
 
 .paid-courses-button:hover {
@@ -68,6 +81,12 @@ header {
     align-items: center;
     display: none;
     height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .navigation {
+        display: block;
+    }
 }
 
 .navigation .tab {
@@ -90,12 +109,24 @@ header {
     height: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+    .hamburger-icon {
+        display: none;
+    }
+}
+
 .programming-languages-section {
     background-color: #282A35;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
     padding: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .programming-languages-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .programming-languages-section button {
