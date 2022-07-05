@@ -26,8 +26,6 @@ header {
     justify-content: space-between;
     height: 4.5rem;
     padding: 0 0.8rem;
-    position: sticky;
-    top: 0;
     width: 100%;
 }
 
