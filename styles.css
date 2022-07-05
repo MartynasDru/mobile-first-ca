@@ -29,6 +29,11 @@ header {
     width: 100%;
 }
 
+main {
+    background-color: #282A35;
+    padding: 2rem;
+}
+
 .header-right {
     align-items: center;
     display: flex;
@@ -114,16 +119,20 @@ header {
 }
 
 .programming-languages-section {
-    background-color: #282A35;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
-    padding: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
     .programming-languages-section {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .programming-languages-section {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -158,4 +167,8 @@ header {
  
 .programming-languages-section button:nth-child(5) {
     background-color: #96D4D4;
+}
+
+.page-title-section {
+    margin-bottom: 1rem;
 }
